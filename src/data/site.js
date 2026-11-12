@@ -78,6 +78,24 @@ export const galleryImages = [
     alt: "Illustrative cricket team artwork",
     isDemo: false,
   },
+    {
+    src: "/images/gallery/14.jpeg",
+    category: "Cricket",
+    alt: "Illustrative cricket team artwork",
+    isDemo: false,
+  },
+    {
+    src: "/images/gallery/15.jpeg",
+    category: "Cricket",
+    alt: "Illustrative cricket team artwork",
+    isDemo: false,
+  },
+    {
+    src: "/images/gallery/16.jpeg",
+    category: "Cricket",
+    alt: "Illustrative cricket team artwork",
+    isDemo: false,
+  },
 ];
 
 export const cricketPlayers = [
@@ -112,13 +130,23 @@ export const cricketPlayers = [
     isDemo: true,
   },
   {
+    name: "Ahzam",
+    position: "Batter",
+    role: "Fast bowler",
+    number: 14,
+    batting: "Right-hand bat",
+    bowling: "Right-arm fast",
+    img: null,
+    isDemo: true,
+  },
+  {
     name: "Hazim Rafiq",
     position: "Wicketkeeper",
     role: "Wicketkeeper-batter",
     number: 1,
     batting: "Right-hand bat",
     bowling: "Right-hand Spin",
-    img: null,
+    img: '/images/players/hazim.jpg',
     isDemo: true,
   },
   {
@@ -156,6 +184,26 @@ export const cricketPlayers = [
     position: "Bowler",
     role: "Spin bowler",
     number: 12,
+    batting: "Right-hand bat",
+    bowling: "Right-arm fast",
+    img: null,
+    isDemo: true,
+  },
+  {
+    name: "Amber Mustafa",
+    position: "Batter",
+    role: "Fast bowler",
+    number: 14,
+    batting: "Right-hand bat",
+    bowling: "Right-arm fast",
+    img: null,
+    isDemo: true,
+  },
+  {
+    name: "Adnan Zahoor",
+    position: "Bowler",
+    role: "Fast bowler",
+    number: 28,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
     img: null,
@@ -206,25 +254,25 @@ export const upcomingMatches = [
 ];
 
 export const achievements = [
-  {
-    year: "DEMO",
-    title: "A club milestone",
-    description: "Replace this sample with a confirmed RAC milestone.",
-    category: "Club",
-    isDemo: true,
-  },
-  {
-    year: "DEMO",
-    title: "Football honour",
-    description: "Add a verified football tournament or individual award.",
-    category: "Football",
-    isDemo: true,
-  },
-  {
-    year: "DEMO",
-    title: "Cricket honour",
-    description: "Add a verified cricket tournament or individual award.",
-    category: "Cricket",
-    isDemo: true,
-  },
+  // {
+  //   year: "DEMO",
+  //   title: "A club milestone",
+  //   description: "Replace this sample with a confirmed RAC milestone.",
+  //   category: "Club",
+  //   isDemo: true,
+  // },
+  // {
+  //   year: "DEMO",
+  //   title: "Football honour",
+  //   description: "Add a verified football tournament or individual award.",
+  //   category: "Football",
+  //   isDemo: true,
+  // },
+  // {
+  //   year: "DEMO",
+  //   title: "Cricket honour",
+  //   description: "Add a verified cricket tournament or individual award.",
+  //   category: "Cricket",
+  //   isDemo: true,
+  // },
 ];

@@ -268,7 +268,7 @@ function Footer() {
           </a>
         </div>
         <div className="flex flex-col justify-between gap-3 pt-6 text-[9px] font-bold uppercase tracking-[.14em] text-paper/40 sm:flex-row">
-          <span>© {new Date().getFullYear()} RAC — Mustafabad Sports Club</span>
+          <span>© {new Date().getFullYear()} RAC — Rijal Atheletic Club</span>
           <span>Made for the love of the game.</span>
         </div>
       </div>
