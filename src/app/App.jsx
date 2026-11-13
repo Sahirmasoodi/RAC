@@ -123,9 +123,9 @@ function Ticker() {
       <div className="flex min-w-max  gap-8 whitespace-nowrap font-display text-2xl font-black uppercase tracking-wide text-charcoal">
         {Array.from({ length: 4 }, (_, index) => (
           <span key={index}>
-            ONE CLUB <b className="mx-5">✳</b> TWO SPORTS{" "}
-            <b className="mx-5">✳</b> ONE COMMUNITY <b className="mx-5">✳</b>{" "}
-            ALL HEART <b className="mx-5">✳</b>
+            ONE CLUB <b className="mx-5"></b> TWO SPORTS{" "}
+            <b className="mx-5"></b> ONE COMMUNITY <b className="mx-5"></b>{" "}
+            ALL HEART <b className="mx-5"></b>
           </span>
         ))}
       </div>
