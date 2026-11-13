@@ -103,10 +103,10 @@ export const cricketPlayers = [
     name: "Ifnan",
     position: "Captain",
     role: "All-rounder",
-    number: 7,
+    number: 18,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: null,
+    img: '/images/players/ifnan.jpg',
     isDemo: true,
   },
   {
@@ -169,16 +169,7 @@ export const cricketPlayers = [
     img: null,
     isDemo: true,
   },
-  {
-    name: "Yasir",
-    position: "Bowler",
-    role: "Spin bowler",
-    number: 12,
-    batting: "Right-hand bat",
-    bowling: "Right-arm fast",
-    img: null,
-    isDemo: true,
-  },
+  
   {
     name: "Nasir",
     position: "Bowler",
@@ -196,7 +187,7 @@ export const cricketPlayers = [
     number: 14,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: null,
+    img: '/images/players/amber.jpg',
     isDemo: true,
   },
   {
@@ -206,7 +197,7 @@ export const cricketPlayers = [
     number: 28,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: null,
+    img: '/images/players/adnan-zahoor.png',
     isDemo: true,
   },
 ];
