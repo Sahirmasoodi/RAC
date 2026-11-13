@@ -139,7 +139,7 @@ export default function CricketSection() {
               ["Fixtures", "No confirmed cricket fixtures yet.", CircleDot],
               [
                 "Player stats",
-                "Replace demo player details with official batting and bowling records.",
+                "N/A",
                 Shield,
               ],
               ["Honours", "Add verified tournaments and awards here.", Trophy],
