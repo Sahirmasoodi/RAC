@@ -18,7 +18,7 @@ export const footballPlayers = [
   { name: 'Basant', position: 'Defender', number: 17, img: '/images/players/basant.jpg' },
   { name: 'Shakir', position: 'Defender', number: 18, img: '/images/players/shakir.jpg' },
   { name: 'Azhaad', position: 'Defender', number: 20, img: '/images/players/azhaad.jpg' },
-  { name: 'Tawfeeq', position: 'Midfielder', number: 777, img: '/images/players/tawfeeq.jpg' },
+  { name: 'Tawfeeq', position: 'Forward', number: 777, img: '/images/players/tawfeeq.jpg' },
   { name: 'Muteeb', position: 'Defender', number: 22, img: null },
   { name: 'Luqmaan', position: 'Forward', number: 26, img: null },
   { name: 'Hyder', position: 'Forward', number: 23, img: null },
