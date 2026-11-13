@@ -180,6 +180,16 @@ export const cricketPlayers = [
     img: null,
     isDemo: true,
   },
+    {
+    name: "Yasir",
+    position: "All-rounder",
+    role: "Spin bowler",
+    number: 12,
+    batting: "Right-hand bat",
+    bowling: "Right-arm fast",
+    img: '/images/players/yasir.png',
+    isDemo: true,
+  },
   {
     name: "Amber Mustafa",
     position: "Batter",
