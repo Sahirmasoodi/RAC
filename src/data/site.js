@@ -78,19 +78,19 @@ export const galleryImages = [
     alt: "Illustrative cricket team artwork",
     isDemo: false,
   },
-    {
+  {
     src: "/images/gallery/14.jpeg",
     category: "Cricket",
     alt: "Illustrative cricket team artwork",
     isDemo: false,
   },
-    {
+  {
     src: "/images/gallery/15.jpeg",
     category: "Cricket",
     alt: "Illustrative cricket team artwork",
     isDemo: false,
   },
-    {
+  {
     src: "/images/gallery/16.jpeg",
     category: "Cricket",
     alt: "Illustrative cricket team artwork",
@@ -106,7 +106,7 @@ export const cricketPlayers = [
     number: 18,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: '/images/players/ifnan.jpg',
+    img: "/images/players/ifnan.jpg",
     isDemo: true,
   },
   {
@@ -132,8 +132,18 @@ export const cricketPlayers = [
   {
     name: "Ahzam",
     position: "Batter",
-    role: "Fast bowler",
+    role: "Top-order batter",
     number: 14,
+    batting: "Right-hand bat",
+    bowling: "Right-arm fast",
+    img: null,
+    isDemo: true,
+  },
+  {
+    name: "Mustahsin",
+    position: "Bowler",
+    role: "Fast bowler",
+    number: 28,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
     img: null,
@@ -146,7 +156,7 @@ export const cricketPlayers = [
     number: 1,
     batting: "Right-hand bat",
     bowling: "Right-hand Spin",
-    img: '/images/players/hazim.jpg',
+    img: "/images/players/hazim.jpg",
     isDemo: true,
   },
   {
@@ -169,10 +179,10 @@ export const cricketPlayers = [
     img: null,
     isDemo: true,
   },
-  
+
   {
     name: "Nasir",
-    position: "Bowler",
+    position: "Batter",
     role: "Spin bowler",
     number: 12,
     batting: "Right-hand bat",
@@ -180,14 +190,24 @@ export const cricketPlayers = [
     img: null,
     isDemo: true,
   },
-    {
+  {
+    name: "Hubaib",
+    position: "Bowler",
+    role: "Fast bowler",
+    number: 26,
+    batting: "Right-hand bat",
+    bowling: "Right-arm fast",
+    img: null,
+    isDemo: true,
+  },
+  {
     name: "Yasir",
     position: "All-rounder",
     role: "Spin bowler",
     number: 12,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: '/images/players/yasir.png',
+    img: "/images/players/yasir.png",
     isDemo: true,
   },
   {
@@ -197,7 +217,7 @@ export const cricketPlayers = [
     number: 14,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: '/images/players/amber.jpg',
+    img: "/images/players/amber.jpg",
     isDemo: true,
   },
   {
@@ -207,7 +227,7 @@ export const cricketPlayers = [
     number: 28,
     batting: "Right-hand bat",
     bowling: "Right-arm fast",
-    img: '/images/players/adnan-zahoor.png',
+    img: "/images/players/adnan-zahoor.png",
     isDemo: true,
   },
 ];
