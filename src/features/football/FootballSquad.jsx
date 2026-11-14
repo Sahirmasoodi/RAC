@@ -58,10 +58,13 @@ export default function FootballSquad() {
         </div>
         <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:gap-x-6 lg:grid-cols-4">
           {visiblePlayers.map((player, index) => (
-            <PlayerCard key={player.number} player={player} index={index} />
+            <PlayerCard
+              key={player.name + index}
+              player={player}
+              index={index}
+            />
           ))}
         </div>
-        
       </div>
     </section>
   );
