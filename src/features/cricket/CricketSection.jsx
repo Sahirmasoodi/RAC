@@ -137,11 +137,7 @@ export default function CricketSection() {
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {[
               ["Fixtures", "No confirmed cricket fixtures yet.", CircleDot],
-              [
-                "Player stats",
-                "N/A",
-                Shield,
-              ],
+              ["Player stats", "N/A", Shield],
               ["Honours", "Add verified tournaments and awards here.", Trophy],
             ].map(([title, copy, Icon]) => (
               <div
