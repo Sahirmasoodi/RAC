@@ -8,15 +8,15 @@ const image =
 export default function CricketSection() {
   return (
     <section id="cricket" className="bg-charcoal text-paper">
-      <div className="grid min-h-[620px] lg:grid-cols-2">
-        <div className="relative min-h-[380px] overflow-hidden lg:min-h-full">
+      <div className="grid min-h-155 lg:grid-cols-2">
+        <div className="relative min-h-95 overflow-hidden lg:min-h-full">
           <img
             src={image}
             alt="Cricket match on a sunlit ground"
             loading="lazy"
             className="absolute inset-0 h-full w-full object-cover opacity-75"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/10 to-charcoal/10" />
+          <div className="absolute inset-0 bg-linear-to-t from-charcoal via-charcoal/10 to-charcoal/10" />
           <span className="absolute bottom-8 left-6 font-display text-8xl font-black text-paper/90 md:left-10 md:text-[10rem]">
             02
           </span>
@@ -63,7 +63,7 @@ export default function CricketSection() {
         </div>
       </div>
       <div id="cricket-squad" className="px-5 py-20 md:px-10 md:py-24">
-        <div className="mx-auto max-w-[1440px]">
+        <div className="mx-auto max-w-360">
           <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
             <div>
               <p className="mb-4 text-[10px] font-bold uppercase tracking-[.22em] text-olive">
