@@ -155,6 +155,20 @@ export const footballPlayers = [
 ];
 
 export const pastFootballMatches = [
+    {
+    team1: "Mustafabad FC",
+    team2: "Bemina FC",
+    date: "November 15, 2026",
+    venue: "Yetty Sports Turf",
+    result: "7 - 6",
+  },
+  {
+    team1: "Mustafabad FC",
+    team2: "Bemina FC",
+    date: "November 15, 2026",
+    venue: "Yetty Sports Turf",
+    result: "9 - 6",
+  },
   {
     team1: "Mustafabad FC",
     team2: "Tengpora FC",
