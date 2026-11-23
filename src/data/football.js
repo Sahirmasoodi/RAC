@@ -155,6 +155,13 @@ export const footballPlayers = [
 ];
 
 export const pastFootballMatches = [
+     {
+    team1: "Mustafabad FC",
+    team2: "Qamarwari FC",
+    date: "November 22, 2026",
+    venue: "WHS Turf",
+    result: "11 - 11",
+  },
     {
     team1: "Mustafabad FC",
     team2: "Bemina FC",
